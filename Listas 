@@ -1,0 +1,156 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMez1QqaaMIlcm0+zIVnFDa",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PedroQueiroga9/Exercicios-De-Programacao/blob/main/Listas%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_yznYOiyACZc",
+        "outputId": "48ca186a-f2ec-4ff8-ef93-913709cca3b7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "jaca\n",
+            "manga\n",
+            "morango\n",
+            "pinha\n",
+            "goiaba\n"
+          ]
+        }
+      ],
+      "source": [
+        "frutas = ['jaca', 'manga', 'morango', 'pinha', 'goiaba']\n",
+        "for i in frutas:\n",
+        "  print(i)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frutas = ['jaca', 'manga', 'morango', 'pinha', 'goiaba']\n",
+        "for i in frutas:\n",
+        "  print(i)\n",
+        "if i == 'morango':\n",
+        "  print('Esta fruta já está na lista')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uE8bJLxSF68P",
+        "outputId": "70826fbb-2967-450c-fe7b-bee6605e36cb"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "jaca\n",
+            "manga\n",
+            "morango\n",
+            "pinha\n",
+            "goiaba\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "notas = ['9', '7','3', '8', '10', '4']\n",
+        "for nota in notas:\n",
+        "if (nota >= 7):\n",
+        "    print(nota)\n"
+      ],
+      "metadata": {
+        "id": "39DKi4KgI09e"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frutas = ['jaca', 'manga', 'morango', 'pinha', 'goiaba']\n",
+        "fruta = input('insira uma fruta')\n",
+        "frutas.append(fruta)\n",
+        "frutas"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3vgO4DR4IYjI",
+        "outputId": "5113cc83-ecf3-406c-a732-0de40dd75b12"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "insira uma frutamamao\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['jaca', 'manga', 'morango', 'pinha', 'goiaba', 'mamao']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cidades = []\n",
+        "city = input('Adcione uma cidade de sua escolha: ')\n",
+        "\n",
+        "while(city != '0'):\n",
+        "  cidades.append(city)\n",
+        "  city = input('Digite uma cidade')"
+      ],
+      "metadata": {
+        "id": "HlJFP9csJp54"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
